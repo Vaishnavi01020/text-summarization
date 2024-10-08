@@ -1,0 +1,11 @@
+numpy>=1.24.0          # Compatible with Python 3.11
+torch>=2.0.0           # PyTorch 2.x supports Python 3.11
+spacy>=3.5.0           # Ensure Spacy version supports Python 3.11
+transformers>=4.25.1   # Version compatible with Python 3.11
+sentencepiece==0.1.96  # Should work fine with Python 3.11
+tqdm                   # The latest version should be fine
+neuralcoref==4.0       # It might require a fork, as official support for neuralcoref is discontinued
+argparse               # Part of the Python standard library, no need to specify
+scikit-learn>=1.2.0    # Compatible with Python 3.11
+pytest                 # The latest version should work fine with Python 3.11
+sentence-transformers>=2.2.0  # Compatible with Python 3.11
